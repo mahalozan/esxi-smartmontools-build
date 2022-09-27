@@ -29,7 +29,7 @@ Docker file to build smartmontools images with all required dependencies.
   - `bash build-svn-smartmoontools.sh` (to build smartmoontools release from svn repository)
   - `bash build-git-smartmoontools.sh` (to build smartmoontools release from git repository)
 5. Created `smartctl` (part of smartmoontools) will be archived into docker persisten volume `linux-data` mounted into /home/dist.
-6. Get archived `smartctl`.
+6. Download archived `smartctl` located in docker volume `linux-data`.
 7. Create vib package for ESXi with ESXi Community Packaging Tools (ESXi-CPT).
 
 ## Links
