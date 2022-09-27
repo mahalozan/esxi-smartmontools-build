@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+    smartmontools-build:
+      image: smartmontools-build
+      container_name: smartmontools-build
+      volumes:
+        - linux-data:/home/dist
+
+volumes:
+    linux-data:
