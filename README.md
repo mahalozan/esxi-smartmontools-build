@@ -37,7 +37,8 @@ Docker file to build smartmontools images with all required dependencies.
 
 1. Donwnload and install ESXi Community Packaging Tools (ESXi-CPT) http://ESXi-CPT.v-front.de.
 2. Create tgz archive with `smartctl` binary.
-3. Create vib package.
+3. Create vib package.\
+![Create vib package with ESXi-CPT-v2.4](https://github.com/mahalozan/smartmontools/blob/master/ESXi-CPT-v2.4.png)
 4. Upload vib package `smartctl-<version>.x86_64.vib` to /tmp/ directory of an ESXi host.
 5. SSH to the ESXi host.
 6. Set the VIB acceptance level to CommunitySupported
