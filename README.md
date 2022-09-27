@@ -1,6 +1,6 @@
 # smartmontools
 
-!!! Please note that the use of build procedure and VIB is absolutely unsupported. Use at your own risk !!!
+!!! Please note that the use of build procedure and VIB is absolutely unsupported. Use at your own risk !!!\
 The package has been tested on 6.5.0 Update 3
 
 ## About
@@ -9,8 +9,8 @@ Docker file to build smartmontools images with all required dependencies.
 
 ## Instructions
 
-1. Create docker image `smartmontools-build`.
-2. Start container created from `smartmontools-build` image with docker-compose. Example of docker compose yml file:
+1. Build docker image `smartmontools-build` with executing `build-docker-image.sh`.
+2. Start container created from `smartmontools-build` image with docker-compose. Example of such docker compose `yaml` file:
     ```
     version: '3'
     services:
