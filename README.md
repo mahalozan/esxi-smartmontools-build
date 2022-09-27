@@ -9,7 +9,7 @@ Docker file to build smartmontools images with all required dependencies.
 
 ## Instructions
 
-1. Build docker image `smartmontools-build` with executing `build-docker-image.sh`.
+1. Build docker image `smartmontools-build` with executing `build-docker-image.sh` located in the folder `docker-build`.
 2. Start container created from `smartmontools-build` image with docker-compose. Example of such docker compose `yaml` file:
     ```
     version: '3'
