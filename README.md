@@ -9,7 +9,7 @@ Docker file to build smartmontools images with all required dependencies.
 
 ## Instructions
 
-1. Build docker image `smartmontools-build` with executing `build-docker-image.sh`.
+1. Build docker image `smartmontools-build` with executing `build-docker-image.sh` located in the folder `docker-build`.
 2. Start container created from `smartmontools-build` image with docker-compose. Example of such docker compose `yaml` file:
     ```
     version: '3'
@@ -29,7 +29,7 @@ Docker file to build smartmontools images with all required dependencies.
   - `bash build-svn-smartmoontools.sh` (to build smartmoontools release from svn repository)
   - `bash build-git-smartmoontools.sh` (to build smartmoontools release from git repository)
 5. Created `smartctl` (part of smartmoontools) will be archived into docker persisten volume `linux-data` mounted into /home/dist.
-6. Get archived `smartctl`.
+6. Download archived `smartctl` located in docker volume `linux-data`.
 7. Create vib package for ESXi with ESXi Community Packaging Tools (ESXi-CPT).
 
 ## Links
