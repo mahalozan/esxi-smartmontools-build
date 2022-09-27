@@ -1,4 +1,4 @@
-# smartmontools
+# smartmontools (ESXi)
 
 !!! Please note that the use of build procedure and VIB is absolutely unsupported. Use at your own risk !!!\
 The package has been tested on 6.5.0 Update 3
