@@ -5,7 +5,7 @@ The package has been tested on 6.5.0 Update 3
 
 ## About
 
-Docker file to build smartmontools images with all required dependencies.
+Docker file to build smartmontools images with all required dependencies and instruction how to prepare vib package for ESXi.
 
 ## Instructions
 
