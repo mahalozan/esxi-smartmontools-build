@@ -49,7 +49,14 @@ Docker file to build smartmontools images with all required dependencies and ins
 ```
 # esxcli software vib install -v /tmp/smartctl-<version>.x86_64.vib
 ```
-
+8. Determine which VIBs are installed on the host.
+```
+# esxcli --server=<server_name> software vib list
+```
+9. Remove the VIB.
+```
+esxcli --server=<server_name> software vib remove --vibname=<name>
+```
 
 ## Links
 
