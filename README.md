@@ -63,3 +63,4 @@ Docker file to build smartmontools images with all required dependencies and ins
 - https://www.virten.net/2016/05/determine-tbw-from-ssds-with-s-m-a-r-t-values-in-esxi-smartctl/
 - smartmontools: https://www.smartmontools.org/wiki/Download
 - ESXi Community Packaging Tools: http://ESXi-CPT.v-front.de
+- https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.esxi.upgrade.doc/GUID-7FFEBD91-5D82-4E32-93AB-F10D8BFFECAA.html
