@@ -55,7 +55,7 @@ Docker file to build smartmontools images with all required dependencies and ins
 ```
 9. Remove the VIB.
 ```
-esxcli --server=<server_name> software vib remove --vibname=<name>
+# esxcli --server=<server_name> software vib remove --vibname=<name>
 ```
 
 ## Links
